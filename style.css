@@ -1,0 +1,84 @@
+body{
+    background-color: aquamarine;
+}
+
+.rect{
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+}
+
+.cir{
+    width: 340px;
+    height: 340px;
+    border: black;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.inn-cir{
+    width: 300px;
+    height: 300px;
+    background: burlywood url(Clock.png);
+    border-radius: 50%;
+    display: flex;
+    background-size: cover;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.center{
+    width: 20px;
+    height: 20px;
+    background-color: coral;
+    border-radius: 50%;
+    z-index: 1000;
+    margin: auto;
+}
+
+#hr{
+    width: 10px;
+    height: 80px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #B3541E;
+    justify-content: center;
+    top: 118px;
+    left: 192px;
+    transform-origin: bottom;
+}
+
+#minute{
+    width: 8px;
+    height: 100px;
+    position: absolute;
+    border-radius: 10px;
+    background-color:  #B3541E;
+    justify-content: center;
+    top: 100px;
+    left: 195px;
+    transform-origin: bottom;
+}
+
+#sec{
+    width: 6px;
+    height: 110px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+    justify-content: center;
+    top: 90px;
+    left: 195px;
+    transform-origin: bottom;
+}
