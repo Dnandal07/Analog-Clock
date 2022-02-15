@@ -34,7 +34,6 @@ body{
     border-radius: 50%;
     display: flex;
     background-size: cover;
-    /* align-items: center; */
     justify-content: center;
 }
 
